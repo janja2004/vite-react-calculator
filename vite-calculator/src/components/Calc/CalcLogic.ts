@@ -1,0 +1,16 @@
+import type { Operation } from "../../types/Calc";
+
+export const add: Operation = (a, b) => a + b;
+
+export const subtract: Operation = (a, b) => a - b;
+
+export const multiply: Operation = (a, b) => a * b;
+
+export const divide: Operation = (a, b) => 
+{
+  if (b === 0) 
+  {
+    throw new Error("Division by zero is not allowed!");
+  }
+  return a / b;
+};
