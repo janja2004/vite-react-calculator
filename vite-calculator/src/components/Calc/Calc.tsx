@@ -14,24 +14,14 @@ const Calc = () =>
   const [num2, setNum2] = useState("");
   const [result, setResult] = useState<number | null>(null);
 
-  const parseNumbers = (): [number, number] => 
+  const handleOperation = (operation: Operation) => 
   {
     const a = parseFloat(num1);
     const b = parseFloat(num2);
-
-    if (isNaN(a) || isNaN(b)) 
-    {
-      throw new Error("Please enter valid numbers in both fields.");
-    }
-
-    return [a, b];
-  };
-
-  const handleOperation = (operation: Operation) => 
-  {
-    const [a, b] = parseNumbers();
     const res = operation(a, b);
-    setResult(res);
+
+    if (isNaN(res)) setResult(null);
+    else setResult(res);
   };
 
   const handleReset = () => 
