@@ -33,6 +33,7 @@ const Calc = () =>
 
   return (
     <div className="calculator">
+      <h1 style={{ textAlign: "center" }}>Mini Calculator</h1>
       <input
         type="number"
         placeholder="First number"
