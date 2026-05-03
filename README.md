@@ -1,3 +1,7 @@
+# NAPOMENA
+
+Failed deployment-i (zbog kojih ne stoji štiklić) su napravljeni na test Vercel projektu koji nije bio povezan adekvatno i nije uopšte ni korišćen u izradi ovog projekta.
+
 # React + TypeScript + Vite
 
 Mini calculator implemented in React + TypeScript + Vite that supports basic operations - addition, substraction, multiplication and division, with two input fields for two variables and a reset button.
