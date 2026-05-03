@@ -10,7 +10,7 @@ Link to app: https://calc-7e4m.vercel.app/
 Clone the repository:
 
 ```
-git clone https://github.com/janja2004/calc
+git clone https://github.com/janja2004/vite-react-calculator
 cd vite-react-calculator
 ```
 
