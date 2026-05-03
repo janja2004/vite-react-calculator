@@ -11,7 +11,7 @@ Clone the repository:
 
 ```
 git clone https://github.com/janja2004/vite-react-calculator
-cd vite-react-calculator
+cd vite-calculator
 ```
 
 Install dependencies
